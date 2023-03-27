@@ -1,4 +1,4 @@
-﻿namespace ShagCSharp
+﻿namespace firstLesson
 {
     internal class Program
     {

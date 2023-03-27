@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShagCSharp", "ShagCSharp\ShagCSharp.csproj", "{29D3A73B-8BA5-45A9-9644-8CCAC92B4F8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstLesson", "firstLesson\firstLesson.csproj", "{29D3A73B-8BA5-45A9-9644-8CCAC92B4F8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
