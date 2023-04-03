@@ -1,0 +1,7 @@
+C:\Users\Chara\Documents\GitHub\ShagCSharp\lesson4\bin\Debug\lesson4.exe
+C:\Users\Chara\Documents\GitHub\ShagCSharp\lesson4\bin\Debug\lesson4.pdb
+C:\Users\Chara\Documents\GitHub\ShagCSharp\lesson4\obj\Debug\lesson4.csproj.AssemblyReference.cache
+C:\Users\Chara\Documents\GitHub\ShagCSharp\lesson4\obj\Debug\lesson4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Chara\Documents\GitHub\ShagCSharp\lesson4\obj\Debug\lesson4.csproj.CoreCompileInputs.cache
+C:\Users\Chara\Documents\GitHub\ShagCSharp\lesson4\obj\Debug\lesson4.exe
+C:\Users\Chara\Documents\GitHub\ShagCSharp\lesson4\obj\Debug\lesson4.pdb
