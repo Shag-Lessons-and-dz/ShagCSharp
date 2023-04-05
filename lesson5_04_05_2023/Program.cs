@@ -46,19 +46,62 @@ namespace lesson5_04_05_2023
                 Console.WriteLine("-----------------------");
             }*/
             
-            short[,,] AC =
+            // Ступінчаті масиви (Stepped arrays)
+
+            // 1. Оголошення посилання на двовимірний ступінчатий масив
+            /*int[][] A;
+
+            // 2. Виділення пам'яті для масиву посилань
+            A = new int[5][]; // 5 рядків
+
+            // 3. Виділення пам'яті для кожного рядка
+            A[0] = new int[3];// A[0] = [ 2, 3, 8 ]
+            A[1] = new int[7];// A[1] = [ 2, 3, 4, 8, 2, 3, 9 ]
+            A[2] = new int[5];
+            A[3] = new int[10];
+            A[4] = new int[9];
+
+          // 4. Заповнення масиву значеннями
+            for (int i = 0; i < A.Length; i++)
+            for (int j = 0; j < A[i].Length; j++)
+                A[i][j] = i + j;
+            
+
+            // 5. Виведення масиву
+            for (int i = 0; i < A.Length; i++)
             {
+                for (int j = 0; j < A[i].Length; j++)
+                    Console.Write(A[i][j] + " ");
+                Console.WriteLine();
+            }*/
+            
+            // 1. Оголошення масиву з 5 двовимірних масивів
+            float[][,] A;
+
+            A = new float[5][,];// 5 двовимірних масивів
+
+            // виділення пам'яті для кожного масиву
+            for (int i = 0; i < A.Length; i++)
+                A[i] = new float[3, 4];
+
+            // 2. Заповнення масиву довільними значеннями
+            for (int i = 0; i < A.Length; i++)
+            for (int j = 0; j < A[i].GetLength(0); j++)
+            for (int k = 0; k < A[i].GetLength(1); k++)
+                A[i][j, k] = i + j + k;
+
+
+            // 3. Вивід
+            for (int i = 0; i < A.Length; i++)
+            {
+                for (int j = 0; j < A[i].GetLength(0); j++)
                 {
-                    {1, 2, 3, 4},
-                    {5, 6, 7, 8},
-                    {2, 4, 3, 8}
-                },
-                {
-                    {0, 3, 4, 2},
-                    {1, 3, 8, 7},
-                    {2, 5, 7, 3}
-                },
-            };
+                    for (int k = 0; k < A[i].GetLength(1); k++)
+                        Console.Write(A[i][j, k] + "\t");
+                    Console.WriteLine();
+                }
+                Console.WriteLine("--------------------");
+            }
             
             Console.ReadKey();
         }
