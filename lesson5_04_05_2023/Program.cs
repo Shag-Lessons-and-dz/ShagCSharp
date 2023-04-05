@@ -14,13 +14,13 @@ namespace lesson5_04_05_2023
             Console.WriteLine("sb8 = " + stringBuilder);
             Console.WriteLine("capacity = " + capacity);
             Console.WriteLine("maxcapacity = " + maxcapacity);
-            
+
             // Багатовимірні масиви - це двохвимірні,
             // тривимірні і т.д. масиви.
             
 
             // 1. Оголошення тривимірного масиву
-            ulong[,,] A;
+            /*ulong[,,] A;
             
             // 2. Виділення пам'яті
             A = new ulong[3, 4, 5];
@@ -44,7 +44,21 @@ namespace lesson5_04_05_2023
                     Console.WriteLine();
                 }
                 Console.WriteLine("-----------------------");
-            }
+            }*/
+            
+            short[,,] AC =
+            {
+                {
+                    {1, 2, 3, 4},
+                    {5, 6, 7, 8},
+                    {2, 4, 3, 8}
+                },
+                {
+                    {0, 3, 4, 2},
+                    {1, 3, 8, 7},
+                    {2, 5, 7, 3}
+                },
+            };
             
             Console.ReadKey();
         }
