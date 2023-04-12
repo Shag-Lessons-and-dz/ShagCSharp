@@ -101,13 +101,88 @@ namespace lesson7_04_12_2023
         }
         
     }*/
-    
-   
+
+   class Point
+   {
+       private double x, y;
+
+       public Point(double x, double y)
+       {
+           this.x = x;
+           this.y = y;
+       }
+
+       public double X
+       {
+           get { return x; }
+           set { x = value; }
+       }
+
+       public double Y
+       {
+           get { return y; }
+           set { y = value; }
+       }
+       
+   }
+
+   class ArrayPoint
+   {
+       private Point[] AP;
+       private Random rnd;
+
+       public ArrayPoint(int size)
+       {
+           AP = new Point[size];
+           rnd = new Random();
+           
+           for (int i = 0; i < AP.Length; i++)
+           {
+               double x, y;
+               x = rnd.NextDouble() * 20 - 10;
+               y = rnd.NextDouble() * 20 - 10;
+               AP[i] = new Point(x, y);
+               
+           }
+       }
+
+       public void Print()
+       {
+           for (int i = 0; i < AP.Length; i++)
+           {
+               Console.Write($"( {AP[i].X:F1}; {AP[i].Y:F1} )");
+           }
+           Console.WriteLine();
+       }
+
+       public Point this[int index]
+       {
+           get
+           {
+               if (index < 0 || index >= AP.Length)
+               {
+                   throw new IndexOutOfRangeException();
+               }
+
+               return AP[index];
+           }
+
+           set
+           {
+               if (index >= 0 && index < AP.Length)
+               {
+                   AP[index].X = value.X;
+                   AP[index].Y = value.Y;
+               }
+           }
+       }
+       
+       
+   }
    
     internal class Program
     {
         
-
         /*static void DemoRef(ref int a)
         {
             a = 100;
@@ -287,9 +362,16 @@ namespace lesson7_04_12_2023
             /*Values values = new Values();
             values.a = 100;
             values.a = values.a + 5;*/
-            
-            
 
+            ArrayPoint AP = new ArrayPoint(6);
+            AP.Print();
+
+            Point pt = AP[3];
+            Console.WriteLine("pt.X = {0:F1}, pt.Y = {1:F1}", pt.X, pt.Y);
+
+            AP[2] = new Point(100, 200);
+            AP.Print();
+            
             Console.ReadKey();
         }
     }
