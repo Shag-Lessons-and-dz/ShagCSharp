@@ -3,7 +3,7 @@
 namespace lesson7_04_12_2023
 {
     
-    // Клас, який демонструє способи
+    /*// Клас, який демонструє способи
 
 // передачі аргументів у метод.
 
@@ -64,6 +64,18 @@ namespace lesson7_04_12_2023
             }
 
         }
+        
+        // Метод, який отримує out-параметр типу-значення 
+        public void PassingValueTypeOut(out int a)
+        {
+            a = 100;// обов'язково щось потрібно присвоїти a
+        }
+
+        public void PassingObjectTypeOut(out Integer obj)
+        {
+            obj = new Integer();
+            obj.value = 100;
+        }
 
     }
 
@@ -75,15 +87,75 @@ namespace lesson7_04_12_2023
 
         public int value;
 
-    }
+    }*/
+
+   /* class Values
+    {
+        public int a;
+        public static int static_a;
+        public readonly int b;
+
+        public Values()
+        {
+            b = 150;
+        }
+        
+    }*/
     
+   
+   
     internal class Program
     {
+        
+
+        /*static void DemoRef(ref int a)
+        {
+            a = 100;
+        }
+
+        static void DemoOut(out int a)
+        {
+            a = 100;
+        }*/
+
+        /*static double Summ(params double[] x)
+        {
+            double sum = 0;
+            for (int i = 0; i < x.Length; i++)
+            {
+                sum += x[i];
+            }
+
+            return sum;
+        }*/
+
+        /*static byte Max(byte a = 1, byte b = 2, byte c = 3)
+        {
+            byte max = a;
+            if (max < b) max = b;
+            if (max < c)
+            {
+                max = c;
+            }
+
+            return max;
+        }*/
+
+        /*static float SumFloat4(float a, float b, float c, float d)
+        {
+            Console.WriteLine("a = "+a);
+            Console.WriteLine("b = "+b);
+            Console.WriteLine("c = "+c);
+            Console.WriteLine("d = "+d);
+            Console.WriteLine("-----------------------------------");
+            return a + b + c + d;
+        }*/
+        
         
         
         public static void Main(string[] args)
         {
-            /*
+           /*
 
             // Тема: Передача аргументів у функцію.
 
@@ -97,7 +169,7 @@ namespace lesson7_04_12_2023
 
             */
 
-            DemoPassingParameters demoObj = new DemoPassingParameters();
+            /*DemoPassingParameters demoObj = new DemoPassingParameters();
 
             // 1. Передача типу-значення у метод за значенням
 
@@ -166,12 +238,57 @@ namespace lesson7_04_12_2023
             Console.Write("AI => ");
 
             for (int i=0; i<AI.Length; i++)
-
             {
 
                 Console.Write(AI[i].value + " ");
 
             }
+            Console.WriteLine();
+
+            t = 200;
+            demoObj.PassingValueTypeOut(out t);
+            Console.WriteLine("t = " + t);
+
+            Integer integer;
+            demoObj.PassingObjectTypeOut(out integer);
+            Console.WriteLine("integer.value = " + integer.value);
+            */
+
+            /*int t = 0;
+            DemoRef(ref t);
+            Console.WriteLine("t = "+t);
+            
+            int x;
+            DemoOut(out x);
+            Console.WriteLine("x = "+x);*/
+
+            /*double summ;
+            summ = Summ(1.6, 2.8, 3.1);
+            Console.WriteLine("sum = "+summ);*/
+
+            /*byte max = Max();
+            Console.WriteLine("Max() = "+max);
+
+            max = Max(5);
+            Console.WriteLine("Max(5) = "+max);
+
+            max = Max(3, 2);
+            Console.WriteLine("Max(3, 2) = "+max);
+            
+            max = Max(4, 5, 1);
+            Console.WriteLine("Max(4, 5, 1) = "+max);*/
+
+            /*float sum = SumFloat4(1.1f, 2.5f, 3.8f, 4.1f);
+            Console.WriteLine("sum = "+sum);
+
+            sum = SumFloat4(b: 1.7f, c: 2.8f, d:-0.5f, a:1.4f);
+            Console.WriteLine("sum = "+sum);*/
+
+            /*Values values = new Values();
+            values.a = 100;
+            values.a = values.a + 5;*/
+            
+            
 
             Console.ReadKey();
         }
