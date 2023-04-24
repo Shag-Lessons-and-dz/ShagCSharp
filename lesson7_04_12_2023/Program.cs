@@ -180,7 +180,7 @@ namespace lesson7_04_12_2023
        
    }
    
-    internal class Program
+    internal class Program 
     {
         
         /*static void DemoRef(ref int a)
