@@ -95,7 +95,7 @@ namespace lesson9_04_26_2023
         }
     }*/
 
-   class TwoDimIndexer
+   /*class TwoDimIndexer
    {
        private double[,] A;
 
@@ -117,7 +117,9 @@ namespace lesson9_04_26_2023
            get { return A[row, column]; }
            set { A[row, column] = value; }
        }
-   }
+   }*/
+   // Оголошення
+
     internal class Program
     {
         public static void Main()
