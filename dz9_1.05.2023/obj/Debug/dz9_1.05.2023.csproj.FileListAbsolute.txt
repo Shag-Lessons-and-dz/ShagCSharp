@@ -1,0 +1,7 @@
+C:\Users\Chara\Documents\GitHub\ShagCSharp\dz9_1.05.2023\bin\Debug\dz9_1._05._2023.exe
+C:\Users\Chara\Documents\GitHub\ShagCSharp\dz9_1.05.2023\bin\Debug\dz9_1._05._2023.pdb
+C:\Users\Chara\Documents\GitHub\ShagCSharp\dz9_1.05.2023\obj\Debug\dz9_1.05.2023.csproj.AssemblyReference.cache
+C:\Users\Chara\Documents\GitHub\ShagCSharp\dz9_1.05.2023\obj\Debug\dz9_1.05.2023.csproj.SuggestedBindingRedirects.cache
+C:\Users\Chara\Documents\GitHub\ShagCSharp\dz9_1.05.2023\obj\Debug\dz9_1.05.2023.csproj.CoreCompileInputs.cache
+C:\Users\Chara\Documents\GitHub\ShagCSharp\dz9_1.05.2023\obj\Debug\dz9_1._05._2023.exe
+C:\Users\Chara\Documents\GitHub\ShagCSharp\dz9_1.05.2023\obj\Debug\dz9_1._05._2023.pdb
