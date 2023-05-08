@@ -50,6 +50,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson11_05.03.2023", "less
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practica4_05_03_2023", "practica4_05_03_2023\practica4_05_03_2023.csproj", "{F4DAEE4F-91A1-47FD-A06F-9D73CEEBDC0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson12_08_05_2023", "lesson12_08_05_2023\lesson12_08_05_2023.csproj", "{415BE694-E9C6-4CDE-9614-F97BDE222E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practica5_05_08_2023", "practica5_05_08_2023\practica5_05_08_2023.csproj", "{745497A9-4A3F-4936-A019-A54F6829B166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +160,13 @@ Global
 		{F4DAEE4F-91A1-47FD-A06F-9D73CEEBDC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4DAEE4F-91A1-47FD-A06F-9D73CEEBDC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4DAEE4F-91A1-47FD-A06F-9D73CEEBDC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415BE694-E9C6-4CDE-9614-F97BDE222E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415BE694-E9C6-4CDE-9614-F97BDE222E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415BE694-E9C6-4CDE-9614-F97BDE222E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415BE694-E9C6-4CDE-9614-F97BDE222E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745497A9-4A3F-4936-A019-A54F6829B166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745497A9-4A3F-4936-A019-A54F6829B166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745497A9-4A3F-4936-A019-A54F6829B166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745497A9-4A3F-4936-A019-A54F6829B166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
