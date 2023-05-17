@@ -1,0 +1,7 @@
+C:\Users\Chara\Documents\GitHub\ShagCSharp\practica6_5.15.23\bin\Debug\practica6_5._15._23.exe
+C:\Users\Chara\Documents\GitHub\ShagCSharp\practica6_5.15.23\bin\Debug\practica6_5._15._23.pdb
+C:\Users\Chara\Documents\GitHub\ShagCSharp\practica6_5.15.23\obj\Debug\practica6_5.15.23.csproj.AssemblyReference.cache
+C:\Users\Chara\Documents\GitHub\ShagCSharp\practica6_5.15.23\obj\Debug\practica6_5.15.23.csproj.SuggestedBindingRedirects.cache
+C:\Users\Chara\Documents\GitHub\ShagCSharp\practica6_5.15.23\obj\Debug\practica6_5.15.23.csproj.CoreCompileInputs.cache
+C:\Users\Chara\Documents\GitHub\ShagCSharp\practica6_5.15.23\obj\Debug\practica6_5._15._23.exe
+C:\Users\Chara\Documents\GitHub\ShagCSharp\practica6_5.15.23\obj\Debug\practica6_5._15._23.pdb
