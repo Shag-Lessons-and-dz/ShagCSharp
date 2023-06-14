@@ -1,0 +1,12 @@
+Name: John Smith
+Age: 30
+Position: Manager
+
+Name: Jane Doe
+Age: 25
+Position: Developer
+
+Name: Mike Johnson
+Age: 35
+Position: Designer
+
